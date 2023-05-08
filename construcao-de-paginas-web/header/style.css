@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body {
+    margin: 0px;
+    background-color: #191622;
+    font-family: 'Roboto', sans-serif;
+}
+
+#navigation {
+    display: flex;
+    justify-content: space-between;
+    background-color: #41414D;
+    border-bottom: 1px solid #78D1E1;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.fa-brands{
+    font-size: 25px;
+    margin: 5px;
+}
+
+#navigation li{
+    display: inline-block;
+    list-style: none;
+}
+
+#navigation ul{
+    margin: 0px;
+}
+
+#navigation ul a{
+    text-decoration: none;
+    display: block;
+    padding: 0.5em;
+    color: white;
+    font-weight: bold;
+}
+
+#navigation ul :hover{
+    background-color: #78D1E1;
+    border-radius: 0px 0px 5px 5px;
+}
+
+@media all and (max-width: 353px) {
+    #navigation ul{
+        flex-direction: column-reverse;
+    }
+}
