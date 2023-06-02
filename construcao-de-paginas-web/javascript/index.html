@@ -14,12 +14,12 @@
   </head>
   <body>
     <div id="valores">
-        <p id="operacao">Calculadora</p>
+      <p id="operacao">Calculadora</p>
     </div>
-    <br>
-    <div id = "divbotao">
-        <button id="botaoprompt">Abrir prompt</button>
-        <button id="botaofuncao">Chamar função</button>
+    <br />
+    <div id="divbotao">
+      <button id="botaoprompt">Abrir prompt</button>
+      <button id="botaofuncao">Chamar função</button>
     </div>
     <div>
       <h1 id="titulo">Titulo</h1>
@@ -27,14 +27,15 @@
       <p>Outro paragrafo</p>
     </div>
 
-    <div id ="divtabela">
-
+    <div id="divtabela">
       <table border>
-        <caption>Exemplo de tabela</caption>
+        <caption>
+          Exemplo de tabela
+        </caption>
         <tr>
           <th>Coluna 1</th>
           <th>Coluna 2</th>
-          <th>Coluna 3</th> 
+          <th>Coluna 3</th>
         </tr>
 
         <tr>
@@ -44,9 +45,9 @@
         </tr>
 
         <tr>
-         <td colspan="2">Linha 2, Coluna 1 E Coluna 2</td>
-         <!-- <td>Linha 2, coluna 2</td> -->
-         <td>Linha 2, Coluna 3 e Linha 3</td>
+          <td colspan="2">Linha 2, Coluna 1 E Coluna 2</td>
+          <!-- <td>Linha 2, coluna 2</td> -->
+          <td>Linha 2, Coluna 3 e Linha 3</td>
         </tr>
 
         <tr>
@@ -55,7 +56,76 @@
           <td>Linha 3, Coluna 3</td>
         </tr>
       </table>
+    </div>
 
+    <div>
+      <h3>Tabela 1</h3>
+
+      <table id="tabelaex1">
+        <caption>
+          Exercício 1
+        </caption>
+        <tr>
+          <th colspan="4">Coluna 1</th>
+        </tr>
+        <tr>
+          <td>Linha 2 Coluna 1</td>
+          <td>Linha 2 Coluna 2</td>
+          <td id="linhazul" rowspan="2">Linha 2 Coluna 3</td>
+          <td>Linha 2 Coluna 4</td>
+        </tr>
+
+        <tr>
+          <td>Linha 3 Coluna 1</td>
+          <td id="linhamarelo" rowspan="2">Linha 3 Coluna 2</td>
+          <!-- <td>Linha 3 Coluna 3</td> -->
+          <td>Linha 3 Coluna 4</td>
+        </tr>
+        <tr>
+          <td>Linha 4 Coluna 1</td>
+          <!-- <td>Linha 4 Coluna 2</td> -->
+          <td id="linhaverde" colspan="2">Linha 4 Coluna 3</td>
+          <!-- <td>Linha 4 Coluna 4</td> -->
+        </tr>
+      </table>
+      <h3>Tabela 2</h3>
+
+      <table id="tabelaex2">
+        <caption>
+          Exercício 2
+        </caption>
+        <tr>
+          <td rowspan="5"><img src="./assets/baixados.jpg" alt="" width="200px"></td>
+          <td>Linha 1 Coluna 2</td>
+          <td colspan="2">Linha 1 Coluna 3</td>
+          <!-- <td>Linha 1 Coluna 4</td> -->
+        </tr>
+        <tr>
+          <!-- <td>Linha 2 Coluna 1</td> -->
+          <td>Linha 2 Coluna 2</td>
+          <td>Linha 2 Coluna 3</td>
+          <td>Linha 2 Coluna 4</td>
+        </tr>
+
+        <tr>
+          <!-- <td>Linha 3 Coluna 1</td> -->
+          <td>Linha 3 Coluna 2</td>
+          <td rowspan="2">Linha 3 Coluna 3</td>
+          <td>Linha 3 Coluna 4</td>
+        </tr>
+        <tr>
+          <!-- <td>Linha 4 Coluna 1</td> -->
+          <td>Linha 4 Coluna 2</td>
+          <!-- <td>Linha 4 Coluna 3</td> -->
+          <td>Linha 4 Coluna 4</td>
+        </tr>
+        <tr>
+          <!-- <td>Linha 5 Coluna 1</td> -->
+          <td colspan="3">Linha 5 Coluna 2</td>
+          <!-- <td>Linha 5 Coluna 3</td>
+          <td>Linha 5 Coluna 4</td> -->
+        </tr>
+      </table>
     </div>
     <script src="script.js"></script>
   </body>

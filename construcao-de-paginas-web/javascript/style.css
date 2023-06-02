@@ -37,6 +37,10 @@ tr td{
     padding: 5px;
 }
 
+th {
+    padding: 5px
+}
+
 tr:nth-child(odd){
     background-color: #41414D;
 
@@ -50,6 +54,18 @@ th {
     padding: 5px;
 }
 
-#divtabela{
-    text-align: center;
+#tabelaex1 th {
+    background-color: red;
+}
+
+#linhamarelo {
+    background-color: yellow;
+}
+
+#linhazul {
+    background-color: blue;
+}
+
+#linhaverde{
+    background-color: green;
 }
