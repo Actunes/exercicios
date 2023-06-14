@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --background: #191622;
+    --current-line: #44475a;
+    --selection: #41414D;
+    --foreground: #E1E1E6;
+    --comment: #483C67;
+    --cyan: #78D1E1;
+    --green: #67E480;
+    --orange: #E89E64;
+    --pink: #FF79C6;
+    --purple: #988BC7;
+    --red: #E96379;
+  }
+
+body {
+    background-color: var(--selection);
+}
+
+header {
+    text-align: center;
+    color: var(--foreground);
+}
+
+#tabelas {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#tabela1 {
+    text-align: center;
+    background-color: #F0F8FF;
+    width: 300px;
+    font-family: "Times New Roman", Times, serif;
+    margin-bottom: 12px;
+}
+
+#tabela1 th, #tabela1 td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+#tabela1 tr:hover {
+    background-color: #A8DAD5;
+}
+
+#tabela2 {
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+#tabela2 thead {
+    background-color: lightgrey;
+    border: 2px solid #DDD;
+}
+
+#tabela2 td, #tabela2 th {
+    padding: 1%;
+    border-bottom: 1px solid #DDD;
+    text-align: center;
+}
+
+#tabela2 td:first-child{
+    text-align: start;
+}
+
+#tabela2 tbody tr:nth-child(odd){
+    background-color: #F9F9F9;
+}
+
+#tabela2 tbody tr:nth-child(even){
+    background-color: white;
+}
+
+#tabela2 td:nth-child(2){
+    background-color: #FFEEAA;
+}
+
+#tabela2 td:nth-child(4){
+    background-color: #FF0000;
+}
+
+#tabela2 td:nth-child(6){
+    background-color: #90EE90;
+}
